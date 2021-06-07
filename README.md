@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Task
+
+- Original page replicated as close to existing design as possible using React per task spec.
+- Videos fetched dynamically from API endpoint via free CORS proxy (CORS headers not enabled on endpoint)
+
+# Navigation changes:
+
+- Navigation bar now "sticky", sticks to the top of the page
+- On scroll behaviour tracked, navigation bar design changes once page has scrolled past search bar
+  (to show logo & search toggle button; clicking this causes the search bar to appear)
+
+# Things outstanding, given more time:
+
+- Unit tests (mainly for dynamic behaviours - e.g. scroll behaviour modifying nav bar)
+- Prop types
+- Animations for changing content on nav bar (e.g. roll in logo / search button on scroll)
+- Page footer
+
+# Create React App documentation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
